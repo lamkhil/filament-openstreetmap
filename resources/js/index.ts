@@ -74,8 +74,8 @@ function GetPointMap(id: string, lat: number = 0, lon: number = 0,zoom:number=10
     })
     const geocoder = new Geocoder('nominatim', {
         provider: 'osm',
-        lang: 'ru-RU', //en-US, fr-FR
-        placeholder: 'Поиск...',
+        lang: 'id-ID', //en-US, fr-FR
+        placeholder: 'Cari Lokasi...',
         limit: 5,
         keepOpen: true,
     })
